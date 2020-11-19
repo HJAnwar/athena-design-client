@@ -1,0 +1,21 @@
+.NavbarBrand img{
+    width: 100px;
+}
+.headerImg img{
+    width: 100%;
+    height: 100%;
+}
+.btnStyle{
+    border-radius: 20px 0 20px 0;
+    background: rgb(107, 107, 101);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    outline: none;
+    direction: none;
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+  border-color: transparent;
+  text-transform: uppercase;
+  
+}
