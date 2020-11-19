@@ -1,0 +1,9 @@
+.newCard {
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 2px 3px 10px rgb(190, 188, 188);
+}
+
+.newCard:hover {
+    border: 2px solid #15caa6;
+}
