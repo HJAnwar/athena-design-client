@@ -10,62 +10,57 @@ import './Achievement.css'
 
 const Achievement = () => {
     return (
-        <div className="mt-5">
+        <div className="my-5">
             <Container>
-                <div className="row">
-                    <Col className="col-lg-6 col-md-12 col-sm-12 ">
-                        <h1>Our Achievements</h1>
-                        <p>t is a long established fact that a reader will be distracted by  the readable content of a page when looking at its layout. The  point of using Lorem Ipsum is that it has a more-or-less normal  distribution of letter. </p>
+                <div className="row d-flex justify-content-around align-items-center">
+                    <Col className="col-lg-5 col-md-12 col-sm-12 ">
+                        <h1 className="font">Our Achievements</h1>
+                        <p>It is a long established fact that a reader will be distracted by  the readable content of a page when looking at its layout. The  point of using Lorem Ipsum is that it has a more-or-less normal  distribution of letter. </p>
                     </Col>
-                    <Col className="col-lg-6 col-md-12 col-sm-12 ">
-                        <div className="row p-2 ">
-                            <div className=" smallCard   col-lg-6  d-flex justify-content-center align-items-center text-center">
+                    <Col className="col-lg-7 col-md-12 col-sm-12 ">
+                        <div className="row">
+                            <div className="smallCard col-lg-5  d-flex justify-content-center align-items-center text-center">
                                 <div className="mr-2">
                                     <img src={img8} alt="" />
                                 </div>
                                 <div className="">
                                     <h1 className="font-weight-bolder text-white ">700+</h1>
-                                    <h5 className="font-weight-bolder text-white">Happy Clients</h5>
+                                    <h6 className="font-weight-bolder text-white">Happy Clients</h6>
                                 </div>
                             </div>
-                            <div className="  smallCardStyle   col-lg-6  d-flex justify-content-center align-items-center text-center">
+                            <div className="CardStyle col-lg-5 style d-flex justify-content-center align-items-center text-center">
                                 <div className="mr-2">
                                     <img src={img9} alt="" />
                                 </div>
-                                <div className="">
-                                    <h1 className="font-weight-bolder text-brand ">140+</h1>
-                                    <h5 className="font-weight-bolder text-brand">Projects Completed</h5>
+                                <div>
+                                    <h1 className="font-weight-bolder text">140+</h1>
+                                    <h6 className="font-weight-bolder text">Projects Completed</h6>
                                 </div>
                             </div>
-
-                            <div className=" mt-3 smallCardStyle   col-lg-6  d-flex justify-content-center align-items-center text-center">
+                        </div>
+                        <div className="row">
+                            <div className="CardStyle col-lg-5 style d-flex justify-content-center align-items-center text-center">
                                 <div className="mr-2">
                                     <img src={img10} alt="" />
                                 </div>
-                                <div className="">
-                                    <h1 className="font-weight-bolder text-brand ">25+</h1>
-                                    <h5 className="font-weight-bolder text-brand">Crazy Minds</h5>
+                                <div>
+                                    <h1 className="font-weight-bolder text">25+</h1>
+                                    <h6 className="font-weight-bolder text">Crazy Minds</h6>
                                 </div>
                             </div>
-
-                            <div className="mt-3 smallCard1   col-lg-6  d-flex justify-content-center align-items-center text-center">
+                            <div className="smallStyle col-lg-5 style d-flex justify-content-center align-items-center text-center">
                                 <div className="mr-2">
                                     <img src={img11} alt="" />
                                 </div>
-                                <div className="">
-                                    <h1 className="font-weight-bolder text-brand ">75+</h1>
-                                    <h5 className="font-weight-bolder text-brand">Running Projects</h5>
+                                <div className="text">
+                                    <h1 className="font-weight-bolder text">75+</h1>
+                                    <h6 className="font-weight-bolder text">Runnings Projects</h6>
                                 </div>
                             </div>
-
                         </div>
                     </Col>
                 </div>
-
             </Container>
-            <br /><br />
-            <br />
-            <br />
         </div>
     );
 };

@@ -1,64 +1,71 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, InputGroup } from 'react-bootstrap';
+import { Button, Container, FormControl, InputGroup } from 'react-bootstrap';
 import './Footer.css';
 import logo1 from '../../../img/Group 86.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBehance, faDribbble, faFacebook, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
         <div>
             <Container>
                 <section>
-                    <div className="text-center">
-                        <h1>Get your design right, right now</h1>
-                        <p>Be the first know our latest offers and updates!</p>
-
-                    </div>
-                    <div className="mt-5 p-2 text-center  searchArea">
-                        <InputGroup className="mt-2 mb-5 ">
-                            <FormControl placeholder="Enter your email address" />
-                            <InputGroup.Append>
+                    <div className="my-5">
+                        <div className="text-center mt-5">
+                            <h1 className="font">Get your design right, right now</h1>
+                            <h5>Be the first know our latest offers and updates!</h5>
+                        </div>
+                        <div className="mt-5 p-2 text-center  searchArea">
+                            <InputGroup className="mt-2 mb-5 ">
+                                <FormControl placeholder="Enter your email address" />
                                 <Button variant="success">Get Started</Button>
-                            </InputGroup.Append>
-                        </InputGroup>
+                            </InputGroup>
+                        </div>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                            <div className="NavbarBrand">
-                                <img src={logo1} alt=""/>
+                    <div className="row my-5">
+                        <div className="col-lg-4 col-md-4 col-sm-12">
+                            <div className="Brand">
+                                <img src={logo1} alt="" />
                             </div>
-                            {/* font awesome here  */}
-                            
+                            <div className="d-flex align-items-center">
+                                <a href="https://github.com/piaspro" className="p-3 text-secondary"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                                <a href="https://github.com/piaspro" className="p-3 text-secondary"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                                <a href="https://github.com/piaspro" className="p-3 text-secondary"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
+                                <a href="https://github.com/piaspro" className="p-3 text-secondary"><FontAwesomeIcon icon={faDribbble} size="2x" /></a>
+                                <a href="https://github.com/piaspro" className="p-3 text-secondary"><FontAwesomeIcon icon={faBehance} size="2x" /></a>
+                            </div>
+
                         </div>
-                        <div className="col-lg-2 col-md-6 col-sm-12">
-                            <h6>Features  </h6>
-                            <h6>Enterprise</h6>
-                            <h6>Pricing</h6>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <h6>Blog  </h6>
-                            <h6>Help Center</h6>
-                            <h6>Contact Us</h6>
-                            <h6>Status</h6>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <h6>About Us  </h6>
-                            <h6>Terms of Service</h6>
-                            <h6> Security</h6>
-                            <h6> Login</h6>
+                        <div className="col-lg-8 col-md-8 col-sm-12">
+                            <div className="row">
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
+                                    <div>
+                                        <h5>Features </h5>
+                                        <h5>Enterprise</h5>
+                                        <h5>Pricing</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
+                                    <div>
+                                        <h5>Blog</h5>
+                                        <h5>Help Center</h5>
+                                        <h5>Contact Us</h5>
+                                        <h5>Status</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
+                                    <div>
+                                        <h5>About Us</h5>
+                                        <h5>Terms of Service</h5>
+                                        <h5>Security</h5>
+                                        <h5>Login</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
             </Container>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </div>
     );
 };
