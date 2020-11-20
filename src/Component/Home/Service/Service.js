@@ -61,9 +61,9 @@ const Service = () => {
                     </section>
                 </Container>
             </div>
-
+            <div className="background py-5">
             <Container>
-                <section className="mt-5">
+                <section>
                     <div className="row  d-flex align-items-center">
                         <Col md={6} className=" headerImg">
                             <img src={img6} alt="" />
@@ -76,6 +76,7 @@ const Service = () => {
                     </div>
                 </section>
             </Container>
+            </div>
         </div>
 
     );

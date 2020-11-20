@@ -24,7 +24,7 @@ const Header = () => {
                             <Nav.Link className="mr-3 text-dark" href="#home">Service</Nav.Link>
                             <Nav.Link className="mr-3 text-dark" href="#link">Pricing</Nav.Link>
                             <Nav.Link className="mr-3 text-dark" href="#home">Our Team</Nav.Link>
-                            <Nav.Link className="mr-5" href="#link"><button className="btnStyle ">See Pricing</button></Nav.Link>
+                            <Nav.Link className="mr-5" href="#link"><button className="btnStyle ">Contact Us</button></Nav.Link>
                         </Nav>
                         
                     </Navbar.Collapse>
@@ -36,15 +36,13 @@ const Header = () => {
             {/* header start here */}
 
             <section>
-                    <div className="row mt-5 align-items-center">
+                    <div className="row mb-5 align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 my-5 ">
                             <div className="justify-content-center align-items-center">
                                 <h1 className="font-fix">Florence <br/> agency</h1>
-                                <p className="mt-4">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <button className="mt-4 btnStyle ">Contact Us</button>
-                                {/* <Button className="mt-4 btnStyle" variant="secondary" size="lg">
-                                    Large button
-                                </Button> */}
+                                <small className="mt-4">Lorem Ipsum has been the industry's standard dummy text ever <br/> since the 1500s, when an unknown printer took a galley of type and <br/> scrambled it to make a type specimen book.</small>
+                                <br/>
+                                <button className="mt-4 btnStyle">See Pricing</button>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 my-5">

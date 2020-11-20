@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, FormControl, InputGroup } from 'react-bootstrap';
+import { Button, Col, Container, FormControl, InputGroup, Row } from 'react-bootstrap';
 import './Footer.css';
 import logo1 from '../../../img/Group 86.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,13 +13,17 @@ const Footer = () => {
                     <div className="my-5">
                         <div className="text-center mt-5">
                             <h1 className="font">Get your design right, right now</h1>
-                            <h5>Be the first know our latest offers and updates!</h5>
+                            <h5 className="text-secondary">Be the first know our latest offers and updates!</h5>
                         </div>
-                        <div className="mt-5 p-2 text-center  searchArea">
-                            <InputGroup className="mt-2 mb-5 ">
-                                <FormControl placeholder="Enter your email address" />
-                                <Button variant="success">Get Started</Button>
-                            </InputGroup>
+                        <div className="mt-5 p-2">
+                            <Row>
+                                <Col>
+                                    <div className="d-flex justify-content-center">
+                                        <input class="input" type="text" placeholder="Enter Your Email Address.." name="search"></input>
+                                        <button type="submit" className="btnSrc">Get Started</button>
+                                    </div>
+                                </Col>
+                            </Row>
                         </div>
                     </div>
                     <div className="row my-5">
@@ -36,16 +40,16 @@ const Footer = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-8 col-md-8 col-sm-12">
+                        <div className="col-lg-8 col-md-8 col-sm-12 ">
                             <div className="row">
-                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center text">
                                     <div>
                                         <h5>Features </h5>
                                         <h5>Enterprise</h5>
                                         <h5>Pricing</h5>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center text">
                                     <div>
                                         <h5>Blog</h5>
                                         <h5>Help Center</h5>
@@ -53,13 +57,13 @@ const Footer = () => {
                                         <h5>Status</h5>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center">
-                                    <div>
-                                        <h5>About Us</h5>
-                                        <h5>Terms of Service</h5>
-                                        <h5>Security</h5>
-                                        <h5>Login</h5>
-                                    </div>
+                                <div className="col-lg-3 col-md-6 col-sm-12 m-3 d-flex justify-content-center text">
+                                        <div>
+                                            <h5>About Us</h5>
+                                            <h5>Terms of Service</h5>
+                                            <h5>Security</h5>
+                                            <h5>Login</h5>
+                                        </div>
                                 </div>
                             </div>
                         </div>
