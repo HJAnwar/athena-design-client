@@ -10,7 +10,7 @@ import './Achievement.css'
 
 const Achievement = () => {
     return (
-        <div className="my-5">
+        <div className="backColor py-5">
             <Container>
                 <div className="row d-flex justify-content-around align-items-center">
                     <Col className="col-lg-5 col-md-12 col-sm-12 ">

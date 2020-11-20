@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+body {
+    background: url(../../../img/Group\ 45@2x.png), url(../../../img/Group\ 57.png), url(../../../img/Group\ 49.png), url(../../../img/Group\ 49.png), url(../../../img/STUDIO.png), url(../../../img/STUDIO.png), url(../../../img/Path\ 76.png);
+    background-size: 550px, 1200px, 120px, 120px, 550px, 550px, 1100px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: -290px -310px, 650px -450px, 300px -25px, -65px 330px, -150px 530px, 1150px 0px, -180px 180px  ;
+}
 
 .NavbarBrand img {
-    width: 100px;
+    width: 110px;
 }
 
 .headerImg img {
@@ -9,7 +15,7 @@
     height: 100%;
 }
 
-.font-fix{
+.font-fix {
     font-weight: bolder;
     font-size: 75px;
     font-family: 'Old Standard TT';

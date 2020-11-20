@@ -4,6 +4,35 @@
     box-shadow: 2px 3px 10px rgb(190, 188, 188);
 }
 
+.back {
+    background: url(../../../img/Group\ 58.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: -300px -80px;
+}
+
+.back {
+    background-color: #fafffd;
+}
+
+.btns {
+    border-radius: 20px 0 20px 0;
+    background: rgb(107, 107, 101);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    direction: none;
+    background-image: linear-gradient(75deg, #15caa6, #0fcfec);
+    border-color: transparent;
+    display: none;
+}
+
 .newCard:hover {
     border: 2px solid #15caa6;
+}
+
+hr {
+    background-color: #0fcfec;
 }
